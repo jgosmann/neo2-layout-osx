@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.1.161 on 2017-01-09 at 13:08 (GMT+1)-->
-<keyboard group="126" id="-26526" name="Deutsch (Neo 2)" maxout="3">
+<!--Last edited by Ukelele version 3.2.1.161 on 2017-01-31 at 09:42 (EST)-->
+<keyboard group="126" id="-4033" name="Deutsch (Neo 2)" maxout="3">
 	<layouts>
 		<layout first="0" last="0" mapSet="138" modifiers="30"/>
 	</layouts>
@@ -1120,6 +1120,7 @@
 		</action>
 		<action id="126">
 			<when state="none" output="ß"/>
+			<when state="Ebene 4 und 6" output="−"/>
 		</action>
 		<action id="127">
 			<when state="none" output="–"/>
