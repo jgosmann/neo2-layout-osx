@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.1.161 on 2017-01-31 at 09:42 (EST)-->
+<!--Last edited by Ukelele version 3.2.1.161 on 2017-02-10 at 21:56 (GMT+1)-->
 <keyboard group="126" id="-4033" name="Deutsch (Neo 2)" maxout="3">
 	<layouts>
 		<layout first="0" last="0" mapSet="138" modifiers="30"/>
@@ -1097,10 +1097,10 @@
 			<when state="none" output="»"/>
 		</action>
 		<action id="121">
-			<when state="none" output="ö"/>
+			<when state="none" output="Ö"/>
 		</action>
 		<action id="122">
-			<when state="none" output="ü"/>
+			<when state="none" output="Ü"/>
 			<when state="Ebene 2 T1 Caron Hatschek" output="Ǚ"/>
 			<when state="Ebene 6 T2 Macron" output="Ǖ"/>
 		</action>
@@ -1977,7 +1977,7 @@
 			<when state="compose r" output="ⅸ"/>
 		</action>
 		<action id="24">
-			<when state="none" output="b"/>
+			<when state="none" output="B"/>
 			<when state="Ebene 3 T1 Drehen" output="𐐒"/>
 			<when state="Ebene 4 T1 Punkt darüber" output="Ḃ"/>
 			<when state="Ebene 5 T1 Haken" output="Ɓ"/>
@@ -1985,7 +1985,7 @@
 			<when state="Ebene 6 T2 Macron" output="Ḇ"/>
 		</action>
 		<action id="25">
-			<when state="none" output="c"/>
+			<when state="none" output="C"/>
 			<when state="Ebene 1 T1 Zirkumflex" output="Ĉ"/>
 			<when state="Ebene 1 T3 Akut" output="Ć"/>
 			<when state="Ebene 2 T1 Caron Hatschek" output="Č"/>
@@ -2001,7 +2001,7 @@
 			<!--<when state="compose" next="compose C"/>-->
 		</action>
 		<action id="27">
-			<when state="none" output="d"/>
+			<when state="none" output="D"/>
 			<when state="Ebene 2 T1 Caron Hatschek" output="Ď"/>
 			<when state="Ebene 2 T2 Cedille" output="Ḑ"/>
 			<when state="Ebene 3 T3 Schrägstrich" output="Đ"/>
@@ -2015,7 +2015,7 @@
 			<when state="Ebene 2 T1 Caron Hatschek" output="Ď"/>
 		</action>
 		<action id="29">
-			<when state="none" output="f"/>
+			<when state="none" output="F"/>
 			<when state="Ebene 3 T1 Drehen" output="Ⅎ"/>
 			<when state="Ebene 4 T1 Punkt darüber" output="Ḟ"/>
 			<when state="Ebene 5 T1 Haken" output="Ƒ"/>
@@ -2027,7 +2027,7 @@
 			<when state="Ebene 4 und 6" next="Ebene 6 T2 Macron"/>
 		</action>
 		<action id="30">
-			<when state="none" output="g"/>
+			<when state="none" output="G"/>
 			<when state="Ebene 1 T1 Zirkumflex" output="Ĝ"/>
 			<when state="Ebene 2 T1 Caron Hatschek" output="Ǧ"/>
 			<when state="Ebene 2 T2 Cedille" output="Ģ"/>
@@ -2045,7 +2045,7 @@
 			<when state="Ebene 6 T3 Breve" output="Ğ"/>
 		</action>
 		<action id="32">
-			<when state="none" output="h"/>
+			<when state="none" output="H"/>
 			<when state="Ebene 1 T1 Zirkumflex" output="Ĥ"/>
 			<when state="Ebene 2 T1 Caron Hatschek" output="Ȟ"/>
 			<when state="Ebene 2 T2 Cedille" output="Ḩ"/>
@@ -2064,7 +2064,7 @@
 			<when state="Ebene 6 T3 Breve" output="Ḫ"/>
 		</action>
 		<action id="34">
-			<when state="none" output="j"/>
+			<when state="none" output="J"/>
 			<when state="Ebene 1 T1 Zirkumflex" output="Ĵ"/>
 			<when state="Ebene 2 T1 Caron Hatschek" output="J̌"/>
 			<when state="Ebene 3 T1 Drehen" output="ſ"/>
@@ -2078,7 +2078,7 @@
 			<when state="compose N" output="Ǌ"/>
 		</action>
 		<action id="36">
-			<when state="none" output="k"/>
+			<when state="none" output="K"/>
 			<when state="Ebene 2 T1 Caron Hatschek" output="Ǩ"/>
 			<when state="Ebene 2 T2 Cedille" output="Ķ"/>
 			<when state="Ebene 4 und 6" output="¡"/>
@@ -2091,23 +2091,23 @@
 			<when state="Ebene 2 T1 Caron Hatschek" output="Ǩ"/>
 		</action>
 		<action id="38">
-			<when state="none" output="m"/>
+			<when state="none" output="M"/>
 			<when state="Ebene 3 T1 Drehen" output="W"/>
 			<when state="Ebene 4 T1 Punkt darüber" output="Ṁ"/>
 			<when state="Ebene 5 T1 Haken" output="Ɱ"/>
 			<when state="Ebene 6 T1 Punkt darunter" output="Ṃ"/>
 		</action>
 		<action id="39">
-			<when state="none" output="p"/>
+			<when state="none" output="P"/>
 			<when state="Ebene 3 T1 Drehen" output="Ԁ"/>
 			<when state="Ebene 4 T1 Punkt darüber" output="Ṗ"/>
 			<when state="Ebene 5 T1 Haken" output="Ƥ"/>
 		</action>
 		<action id="40">
-			<when state="none" output="q"/>
+			<when state="none" output="Q"/>
 		</action>
 		<action id="41">
-			<when state="none" output="r"/>
+			<when state="none" output="R"/>
 			<when state="Ebene 1 T3 Akut" output="Ŕ"/>
 			<when state="Ebene 2 T1 Caron Hatschek" output="Ř"/>
 			<when state="Ebene 2 T2 Cedille" output="Ŗ"/>
@@ -2124,7 +2124,7 @@
 			<when state="compose" next="compose R"/>
 		</action>
 		<action id="43">
-			<when state="none" output="s"/>
+			<when state="none" output="S"/>
 			<when state="Ebene 1 T1 Zirkumflex" output="Ŝ"/>
 			<when state="Ebene 1 T3 Akut" output="Ś"/>
 			<when state="Ebene 2 T1 Caron Hatschek" output="Š"/>
@@ -2140,7 +2140,7 @@
 			<when state="Ebene 2 T1 Caron Hatschek" output="Š"/>
 		</action>
 		<action id="45">
-			<when state="none" output="t"/>
+			<when state="none" output="T"/>
 			<when state="Ebene 2 T1 Caron Hatschek" output="Ť"/>
 			<when state="Ebene 2 T2 Cedille" output="Ţ"/>
 			<when state="Ebene 3 T1 Drehen" output="⊥"/>
@@ -2156,13 +2156,13 @@
 			<when state="Ebene 2 T1 Caron Hatschek" output="Ť"/>
 		</action>
 		<action id="47">
-			<when state="none" output="v"/>
+			<when state="none" output="V"/>
 			<when state="Ebene 2 T3 Tilde" output="Ṽ"/>
 			<when state="Ebene 3 T1 Drehen" output="Ʌ"/>
 			<when state="Ebene 6 T1 Punkt darunter" output="Ṿ"/>
 		</action>
 		<action id="48">
-			<when state="none" output="w"/>
+			<when state="none" output="W"/>
 			<when state="Ebene 1 T1 Zirkumflex" output="Ŵ"/>
 			<when state="Ebene 1 T2 Gravis" output="Ẁ"/>
 			<when state="Ebene 3 T1 Drehen" output="M"/>
@@ -2175,7 +2175,7 @@
 			<when state="Ebene 6 T1 Punkt darunter" output="Ẉ"/>
 		</action>
 		<action id="49">
-			<when state="none" output="x"/>
+			<when state="none" output="X"/>
 			<when state="Ebene 2 T1 Caron Hatschek" output="Ǯ"/>
 			<when state="Ebene 4 T1 Punkt darüber" output="Ẋ"/>
 			<when state="Ebene 4 T2 Trema Diaeresis" output="Ẍ"/>
@@ -2528,7 +2528,7 @@
 			<when state="Ebene 6 T2 Macron" output="Ȳ"/>
 		</action>
 		<action id="79">
-			<when state="none" output="l"/>
+			<when state="none" output="L"/>
 			<when state="Ebene 1 T3 Akut" output="Ĺ"/>
 			<when state="Ebene 2 T1 Caron Hatschek" output="Ľ"/>
 			<when state="Ebene 2 T2 Cedille" output="Ļ"/>
@@ -2680,7 +2680,7 @@
 			<when state="Ebene 6 T3 Breve" output="î"/>
 		</action>
 		<action id="9">
-			<when state="none" output="ä"/>
+			<when state="none" output="Ä"/>
 			<when state="Ebene 5 Spiritus lenis" output="Ἠ"/>
 			<when state="Ebene 5 T2 Spiritus asper" output="Ἡ"/>
 		</action>
