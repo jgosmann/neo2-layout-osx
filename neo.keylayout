@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.1.161 on 2017-02-10 at 21:56 (GMT+1)-->
+<!--Last edited by Ukelele version 3.2.2.166 on 2017-02-18 at 11:01 (EST)-->
 <keyboard group="126" id="-4033" name="Deutsch (Neo 2)" maxout="3">
 	<layouts>
 		<layout first="0" last="0" mapSet="138" modifiers="30"/>
@@ -1119,7 +1119,7 @@
 			<when state="none" next="Ebene 3 T1 Drehen"/>
 		</action>
 		<action id="126">
-			<when state="none" output="ß"/>
+			<when state="none" output="ẞ"/>
 			<when state="Ebene 4 und 6" output="−"/>
 		</action>
 		<action id="127">
@@ -1571,7 +1571,7 @@
 			<when state="Ebene 4 und 6" next="Ebene 4 T1 Punkt darüber"/>
 		</action>
 		<action id="167">
-			<when state="none" output="Z"/>
+			<when state="none" output="z"/>
 			<when state="Ebene 1 T3 Akut" output="Ź"/>
 			<when state="Ebene 2 T1 Caron Hatschek" output="Ž"/>
 			<when state="Ebene 3 T3 Schrägstrich" output="Ƶ"/>
