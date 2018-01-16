@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.2.166 on 2017-08-20 at 12:31 (EDT)-->
+<!--Last edited by Ukelele version 3.2.2.166 on 2018-01-14 at 16:53 (EST)-->
 <keyboard group="126" id="-1132" name="Deutsch (Neo 2)" maxout="3">
 	<layouts>
 		<layout first="0" last="0" mapSet="138" modifiers="30"/>
@@ -298,7 +298,7 @@
 			<key code="47" output="."/>
 			<key code="48" output="&#x0009;"/>
 			<key code="49" action="73"/>
-			<key code="50" output=""/>
+			<key code="50" output="&#x003C;"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="52" output="&#x0003;"/>
 			<key code="53" output="&#x001B;"/>
@@ -649,56 +649,56 @@
 			<key code="126" output="&#x001E;"/>
 		</keyMap>
 		<keyMap index="6">
-			<key code="0" output="Δ"/>
-			<key code="1" output="İ"/>
-			<key code="2" output="α"/>
-			<key code="3" output="¢"/>
-			<key code="4" output="Σ"/>
-			<key code="5" output="Ø"/>
-			<key code="6" output="Œ"/>
-			<key code="7" action="74"/>
-			<key code="8" output="Æ"/>
-			<key code="9" output="Þ"/>
-			<key code="10" action="59"/>
-			<key code="11" output="Ζ"/>
-			<key code="12" output="@"/>
-			<key code="13" output="ª"/>
-			<key code="14" output="Ł"/>
-			<key code="15" output="©"/>
-			<key code="16" output="Κ"/>
-			<key code="17" output="Ω"/>
+			<key code="0" output="\"/>
+			<key code="1" action="/"/>
+			<key code="2" output="{"/>
+			<key code="3" output="}"/>
+			<key code="4" output="?"/>
+			<key code="5" output="*"/>
+			<key code="6" output="#"/>
+			<key code="7" action="96"/>
+			<key code="8" action="|"/>
+			<key code="9" action="~"/>
+			<key code="10" action="125"/>
+			<key code="11" output="`"/>
+			<key code="12" output="…"/>
+			<key code="13" output="_"/>
+			<key code="14" output="["/>
+			<key code="15" output="]"/>
+			<key code="16" output="!"/>
+			<key code="17" output="^"/>
 			<key code="18" output="¹"/>
 			<key code="19" output="²"/>
 			<key code="20" output="³"/>
-			<key code="21" output="¼"/>
-			<key code="22" output="¾"/>
-			<key code="23" output="½"/>
-			<key code="24" output="±"/>
-			<key code="25" output="«"/>
-			<key code="26" output="÷"/>
-			<key code="27" action="71"/>
-			<key code="28" output="»"/>
-			<key code="29" output="}"/>
-			<key code="30" output="¸"/>
-			<key code="31" output="ª"/>
-			<key code="32" output="Ε"/>
-			<key code="33" output="¿"/>
-			<key code="34" output="Γ"/>
-			<key code="35" output="Ι"/>
+			<key code="21" output="›"/>
+			<key code="22" output="¢"/>
+			<key code="23" output="‹"/>
+			<key code="24" action="1"/>
+			<key code="25" output="‘"/>
+			<key code="26" output="¥"/>
+			<key code="27" output=""/>
+			<key code="28" output="‚"/>
+			<key code="29" output="’"/>
+			<key code="30" action="2"/>
+			<key code="31" action="="/>
+			<key code="32" action="&#x003C;"/>
+			<key code="33" output="ſ"/>
+			<key code="34" action="&#x003E;"/>
+			<key code="35" output="&#x0026;"/>
 			<key code="36" output="&#x000D;"/>
-			<key code="37" output="Þ"/>
-			<key code="38" output="Ν"/>
-			<key code="39" output="¥"/>
-			<key code="40" output="™"/>
-			<key code="41" output="Ð"/>
+			<key code="37" action="-"/>
+			<key code="38" output="("/>
+			<key code="39" output="@"/>
+			<key code="40" output=")"/>
+			<key code="41" output=":"/>
 			<key code="42" output=""/>
-			<key code="43" output="¸"/>
-			<key code="44" output="∞"/>
-			<key code="45" output="Β"/>
-			<key code="46" output="Μ"/>
-			<key code="47" action="58"/>
-			<key code="48" output="&#x0009;"/>
-			<key code="49" output=" "/>
+			<key code="43" output="&#x0022;"/>
+			<key code="44" output=";"/>
+			<key code="45" action="+"/>
+			<key code="46" output="%"/>
+			<key code="47" action="&#x0027;"/>
+			<key code="48" action="compose"/>
+			<key code="49" output=" "/>
 			<key code="50" output=""/>
 			<key code="51" output="&#x0008;"/>
 			<key code="52" output="&#x0003;"/>
