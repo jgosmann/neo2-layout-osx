@@ -98,17 +98,17 @@
 			<key code="64" output="&#x0010;"/>
 			<key code="65" output=","/>
 			<key code="66" output="&#x001D;"/>
-			<key code="67" output="-"/>
+			<key code="67" output="*"/>
+			<key code="69" output="+"/>
 			<key code="70" output="&#x001C;"/>
 			<key code="71" output="&#x001B;"/>
 			<key code="72" output="&#x001F;"/>
-			<key code="75" output="*"/>
+			<key code="75" output="/"/>
 			<key code="76" output="&#x000D;"/>
 			<key code="77" output="&#x001E;"/>
-			<key code="78" output="+"/>
-			<key code="79" output="&#x0010;"/>
+			<key code="78" output="-"/>
 			<key code="80" output="&#x0010;"/>
-			<key code="81" output="/"/>
+			<key code="81" output="="/>
 			<key code="82" output="0"/>
 			<key code="83" output="1"/>
 			<key code="84" output="2"/>
