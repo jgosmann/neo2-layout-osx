@@ -16,3 +16,4 @@ but has a number of improvements:
 * Fixed the layout of the Ctrl modifier to work in MacVim.
 * Fixed compose function for ñ.
 * Fixed Ctrl+J.
+* Alternative icons that can be used with the new dark mode in macOS Mojave.
