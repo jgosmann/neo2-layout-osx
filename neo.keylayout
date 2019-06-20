@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.2.166 on 2018-01-16 at 09:34 (EST)-->
-<keyboard group="126" id="-1132" name="Deutsch (Neo 2)" maxout="3">
+<!--Last edited by Ukelele version 3.2.2.166 on 2019-06-20 at 20:53 (GMT+2)-->
+<keyboard group="126" id="-7884" name="Deutsch (Neo 2)" maxout="3">
 	<layouts>
 		<layout first="0" last="0" mapSet="138" modifiers="30"/>
 	</layouts>
@@ -1252,6 +1252,7 @@
 		</action>
 		<action id="112">
 			<when state="none" output="s"/>
+			<when state="Bugfixes" output="?"/>
 			<when state="Ebene 1 T1 Zirkumflex" output="ŝ"/>
 			<when state="Ebene 1 T3 Akut" output="ś"/>
 			<when state="Ebene 2 T1 Caron Hatschek" output="š"/>
@@ -3055,7 +3056,7 @@
 			<when state="none" next="Ebene 1 T2 Gravis"/>
 		</action>
 		<action id="action">
-			<when state="none" output=""/>
+			<when state="none" next="Bugfixes"/>
 			<when state="Ebene 4 und 6" output="⊂"/>
 		</action>
 		<action id="action 1">
@@ -3259,6 +3260,7 @@
 		</action>
 	</actions>
 	<terminators>
+		<when state="Bugfixes" output=""/>
 		<when state="Ebene 1 T1 Zirkumflex" output="^"/>
 		<when state="Ebene 1 T2 Gravis" output="`"/>
 		<when state="Ebene 1 T3 Akut" output="´"/>
