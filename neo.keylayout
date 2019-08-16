@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.3.0.249 on 2019-08-16 at 16:50 (CEST)-->
+<!--Last edited by Ukelele version 3.3.0.249 on 2019-08-16 at 17:12 (CEST)-->
 <keyboard group="126" id="-7884" name="Deutsch (Neo 2)" maxout="3">
     <layouts>
         <layout first="0" last="0" mapSet="138" modifiers="30"/>
@@ -510,14 +510,30 @@
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
             <key code="64" output="&#x0010;"/>
+            <key code="65" output=""/>
             <key code="66" output="&#x001D;"/>
+            <key code="67" output=""/>
+            <key code="69" output=""/>
             <key code="70" output="&#x001C;"/>
             <key code="71" output="&#x001B;"/>
             <key code="72" output="&#x001F;"/>
+            <key code="75" output=""/>
             <key code="76" output="&#x0003;"/>
             <key code="77" output="&#x001E;"/>
+            <key code="78" output=""/>
             <key code="79" output="&#x0010;"/>
             <key code="80" output="&#x0010;"/>
+            <key code="81" output=""/>
+            <key code="82" output=""/>
+            <key code="83" output=""/>
+            <key code="84" output=""/>
+            <key code="85" output=""/>
+            <key code="86" output=""/>
+            <key code="87" output=""/>
+            <key code="88" output=""/>
+            <key code="89" output=""/>
+            <key code="91" output=""/>
+            <key code="92" output=""/>
             <key code="96" output="&#x0010;"/>
             <key code="97" output="&#x0010;"/>
             <key code="98" output="&#x0010;"/>
@@ -1336,7 +1352,7 @@
         </action>
         <action id="12">
             <when state="none" output="ä"/>
-            <when state="Bugfixes" output="$"/>
+            <when state="Bugfixes" output="|"/>
             <when state="Ebene 4 T2 Trema Diaeresis" output="ä"/>
             <when state="Ebene 5 Spiritus lenis" output="ἠ"/>
             <when state="Ebene 5 T2 Spiritus asper" output="ἡ"/>
@@ -1354,11 +1370,12 @@
         </action>
         <action id="123">
             <when state="none" output="ö"/>
-            <when state="Bugfixes" output="#"/>
+            <when state="Bugfixes" output="$"/>
             <when state="Ebene 4 T2 Trema Diaeresis" output="ö"/>
         </action>
         <action id="124">
             <when state="none" output="ü"/>
+            <when state="Bugfixes" output="#"/>
             <when state="Ebene 1 T3 Akut" output="ǘ"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="ǚ"/>
             <when state="Ebene 4 T2 Trema Diaeresis" output="ü"/>
@@ -1406,7 +1423,7 @@
         </action>
         <action id="135">
             <when state="none" output="p"/>
-            <when state="Bugfixes" output="|"/>
+            <when state="Bugfixes" output="~"/>
             <when state="Ebene 3 T1 Drehen" output="d"/>
             <when state="Ebene 4 T1 Punkt darüber" output="ṗ"/>
             <when state="Ebene 5 T1 Haken" output="ƥ"/>
@@ -2823,7 +2840,7 @@
         </action>
         <action id="82">
             <when state="none" output="z"/>
-            <when state="Bugfixes" output="~"/>
+            <when state="Bugfixes" output="`"/>
             <when state="Ebene 1 T3 Akut" output="ź"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="ž"/>
             <when state="Ebene 3 T2 Ring" output="ʑ"/>
