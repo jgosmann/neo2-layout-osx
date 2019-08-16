@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.3.0.249 on 2019-08-16 at 16:48 (CEST)-->
+<!--Last edited by Ukelele version 3.3.0.249 on 2019-08-16 at 16:50 (CEST)-->
 <keyboard group="126" id="-7884" name="Deutsch (Neo 2)" maxout="3">
     <layouts>
         <layout first="0" last="0" mapSet="138" modifiers="30"/>
@@ -1116,10 +1116,12 @@
         </action>
         <action id="100">
             <when state="none" output=","/>
+            <when state="Bugfixes" output="&#x0022;"/>
             <when state="Ebene 3 T1 Drehen" output="&#x0027;"/>
         </action>
         <action id="101">
             <when state="none" output="d"/>
+            <when state="Bugfixes" output=":"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="ď"/>
             <when state="Ebene 2 T2 Cedille" output="ḑ"/>
             <when state="Ebene 3 T1 Drehen" output="p"/>
@@ -1135,6 +1137,7 @@
         </action>
         <action id="102">
             <when state="none" output="."/>
+            <when state="Bugfixes" output="&#x0027;"/>
             <when state="Ebene 3 T1 Drehen" output="˙"/>
             <!--<when state="compose" next="compose ."/>-->
             <!--<when state="compose . /" output="⁒"/>-->
@@ -1154,6 +1157,7 @@
         </action>
         <action id="104">
             <when state="none" output="g"/>
+            <when state="Bugfixes" output="&#x003E;"/>
             <when state="Ebene 1 T1 Zirkumflex" output="ĝ"/>
             <when state="Ebene 1 T3 Akut" output="ǵ"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="ǧ"/>
@@ -1169,6 +1173,7 @@
         </action>
         <action id="105">
             <when state="none" output="h"/>
+            <when state="Bugfixes" output="&#x003C;"/>
             <when state="Ebene 1 T1 Zirkumflex" output="ĥ"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="ȟ"/>
             <when state="Ebene 2 T2 Cedille" output="ḩ"/>
@@ -1191,6 +1196,7 @@
         </action>
         <action id="106">
             <when state="none" output="j"/>
+            <when state="Bugfixes" output=";"/>
             <when state="Ebene 1 T1 Zirkumflex" output="ĵ"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="ǰ"/>
             <when state="Ebene 3 T1 Drehen" output="ɾ"/>
@@ -1204,6 +1210,7 @@
         </action>
         <action id="107">
             <when state="none" output="k"/>
+            <when state="Bugfixes" output="!"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="ǩ"/>
             <when state="Ebene 2 T2 Cedille" output="ķ"/>
             <when state="Ebene 3 T1 Drehen" output="ʞ"/>
@@ -1213,6 +1220,7 @@
         </action>
         <action id="108">
             <when state="none" output="m"/>
+            <when state="Bugfixes" output="%"/>
             <when state="Ebene 3 T1 Drehen" output="ɯ"/>
             <when state="Ebene 4 T1 Punkt darüber" output="ṁ"/>
             <when state="Ebene 5 T1 Haken" output="ɱ"/>
@@ -1230,9 +1238,11 @@
         </action>
         <action id="11">
             <when state="none" output="ß"/>
+            <when state="Bugfixes" output="ſ"/>
         </action>
         <action id="110">
             <when state="none" output="q"/>
+            <when state="Bugfixes" output="&#x0026;"/>
             <when state="Ebene 3 T1 Drehen" output="b"/>
         </action>
         <action id="111">
@@ -1267,6 +1277,7 @@
         </action>
         <action id="113">
             <when state="none" output="t"/>
+            <when state="Bugfixes" output="-"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="ť"/>
             <when state="Ebene 2 T2 Cedille" output="ţ"/>
             <when state="Ebene 3 T1 Drehen" output="ʇ"/>
@@ -1280,6 +1291,7 @@
         </action>
         <action id="114">
             <when state="none" output="v"/>
+            <when state="Bugfixes" output="_"/>
             <when state="Ebene 2 T3 Tilde" output="ṽ"/>
             <when state="Ebene 3 T1 Drehen" output="ʌ"/>
             <when state="Ebene 5 T1 Haken" output="ⱱ"/>
@@ -1287,6 +1299,7 @@
         </action>
         <action id="115">
             <when state="none" output="w"/>
+            <when state="Bugfixes" output="^"/>
             <when state="Ebene 1 T1 Zirkumflex" output="ŵ"/>
             <when state="Ebene 1 T2 Gravis" output="ẁ"/>
             <when state="Ebene 1 T3 Akut" output="ẃ"/>
@@ -1301,6 +1314,7 @@
         </action>
         <action id="116">
             <when state="none" output="x"/>
+            <when state="Bugfixes" output="…"/>
             <when state="Ebene 1 T3 Akut" output="ź"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="ǯ"/>
             <when state="Ebene 4 T1 Punkt darüber" output="ẋ"/>
@@ -1322,6 +1336,7 @@
         </action>
         <action id="12">
             <when state="none" output="ä"/>
+            <when state="Bugfixes" output="$"/>
             <when state="Ebene 4 T2 Trema Diaeresis" output="ä"/>
             <when state="Ebene 5 Spiritus lenis" output="ἠ"/>
             <when state="Ebene 5 T2 Spiritus asper" output="ἡ"/>
@@ -1391,6 +1406,7 @@
         </action>
         <action id="135">
             <when state="none" output="p"/>
+            <when state="Bugfixes" output="|"/>
             <when state="Ebene 3 T1 Drehen" output="d"/>
             <when state="Ebene 4 T1 Punkt darüber" output="ṗ"/>
             <when state="Ebene 5 T1 Haken" output="ƥ"/>
@@ -2475,6 +2491,7 @@
         </action>
         <action id="62">
             <when state="none" output="o"/>
+            <when state="Bugfixes" output="*"/>
             <when state="Ebene 1 T1 Zirkumflex" output="ô"/>
             <when state="Ebene 1 T2 Gravis" output="ò"/>
             <when state="Ebene 1 T3 Akut" output="ó"/>
@@ -2607,6 +2624,7 @@
         </action>
         <action id="69">
             <when state="none" output="e"/>
+            <when state="Bugfixes" output="}"/>
             <when state="Ebene 1 T1 Zirkumflex" output="ê"/>
             <when state="Ebene 1 T2 Gravis" output="è"/>
             <when state="Ebene 1 T3 Akut" output="é"/>
@@ -2700,6 +2718,7 @@
         </action>
         <action id="75">
             <when state="none" output="n"/>
+            <when state="Bugfixes" output="("/>
             <when state="Ebene 1 T1 Zirkumflex" output="ⁿ"/>
             <when state="Ebene 1 T2 Gravis" output="ǹ"/>
             <when state="Ebene 1 T3 Akut" output="ń"/>
@@ -2780,6 +2799,7 @@
         </action>
         <action id="80">
             <when state="none" output="l"/>
+            <when state="Bugfixes" output="["/>
             <when state="Ebene 1 T3 Akut" output="ĺ"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="ľ"/>
             <when state="Ebene 2 T2 Cedille" output="ļ"/>
@@ -2803,6 +2823,7 @@
         </action>
         <action id="82">
             <when state="none" output="z"/>
+            <when state="Bugfixes" output="~"/>
             <when state="Ebene 1 T3 Akut" output="ź"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="ž"/>
             <when state="Ebene 3 T2 Ring" output="ʑ"/>
@@ -2820,6 +2841,7 @@
         </action>
         <action id="83">
             <when state="none" output="u"/>
+            <when state="Bugfixes" output="\"/>
             <when state="Ebene 1 T1 Zirkumflex" output="û"/>
             <when state="Ebene 1 T2 Gravis" output="ù"/>
             <when state="Ebene 1 T3 Akut" output="ú"/>
@@ -2852,6 +2874,7 @@
         </action>
         <action id="85">
             <when state="none" output="a"/>
+            <when state="Bugfixes" output="{"/>
             <when state="Ebene 1 T1 Zirkumflex" output="â"/>
             <when state="Ebene 1 T2 Gravis" output="à"/>
             <when state="Ebene 1 T3 Akut" output="á"/>
@@ -2950,6 +2973,7 @@
         </action>
         <action id="92">
             <when state="none" output="y"/>
+            <when state="Bugfixes" output="@"/>
             <when state="Ebene 1 T1 Zirkumflex" output="ŷ"/>
             <when state="Ebene 1 T2 Gravis" output="ỳ"/>
             <when state="Ebene 1 T3 Akut" output="ý"/>
@@ -3003,6 +3027,7 @@
         </action>
         <action id="98">
             <when state="none" output="b"/>
+            <when state="Bugfixes" output="+"/>
             <when state="Ebene 3 T1 Drehen" output="q"/>
             <when state="Ebene 3 T3 Schrägstrich" output="ƀ"/>
             <when state="Ebene 4 T1 Punkt darüber" output="ḃ"/>
@@ -3012,6 +3037,7 @@
         </action>
         <action id="99">
             <when state="none" output="c"/>
+            <when state="Bugfixes" output="]"/>
             <when state="Ebene 1 T1 Zirkumflex" output="ĉ"/>
             <when state="Ebene 1 T3 Akut" output="ć"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="č"/>
