@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.3.0.249 on 2019-08-16 at 16:46 (CEST)-->
+<!--Last edited by Ukelele version 3.3.0.249 on 2019-08-16 at 16:48 (CEST)-->
 <keyboard group="126" id="-7884" name="Deutsch (Neo 2)" maxout="3">
     <layouts>
         <layout first="0" last="0" mapSet="138" modifiers="30"/>
@@ -1145,6 +1145,7 @@
         </action>
         <action id="103">
             <when state="none" output="f"/>
+            <when state="Bugfixes" output="="/>
             <when state="Ebene 3 T1 Drehen" output="ɟ"/>
             <when state="Ebene 4 T1 Punkt darüber" output="ḟ"/>
             <when state="Ebene 5 T1 Haken" output="ƒ"/>
@@ -1236,6 +1237,7 @@
         </action>
         <action id="111">
             <when state="none" output="r"/>
+            <when state="Bugfixes" output=")"/>
             <when state="Ebene 1 T3 Akut" output="ŕ"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="ř"/>
             <when state="Ebene 2 T2 Cedille" output="ŗ"/>
@@ -1337,6 +1339,7 @@
         </action>
         <action id="123">
             <when state="none" output="ö"/>
+            <when state="Bugfixes" output="#"/>
             <when state="Ebene 4 T2 Trema Diaeresis" output="ö"/>
         </action>
         <action id="124">
@@ -2559,6 +2562,7 @@
         </action>
         <action id="67">
             <when state="none" output="i"/>
+            <when state="Bugfixes" output="/"/>
             <when state="Ebene 1 T1 Zirkumflex" output="î"/>
             <when state="Ebene 1 T2 Gravis" output="ì"/>
             <when state="Ebene 1 T3 Akut" output="í"/>
