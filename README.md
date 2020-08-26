@@ -53,7 +53,9 @@ keys add the following modifications:
 * Some programs (often webbrowsers or webpages displayed in them) might
   interpret layer 3 keys as a shortcut. You can use one of the "Prevent *keys*
   from being treated as option key shortcut" rules in Karabiner Elements to
-  prevent this.
+  prevent this. However, this can cause problems in other programs.
+  Notably, the terminal in JetBrains IDEs (e.g. IntelliJ) will insert
+  additional characters for those keys.
 * When using one of the "Prevent *keys* from being treated as option key
   shortcut" rules in Karabiner Elements, those keys will produce an additional
   character in JetBrains IDE. This issue has been reported
