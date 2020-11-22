@@ -6,9 +6,9 @@ but has a number of improvements:
 
 * Improved caps lock layout: Top row still provides the numbers (special symbols
   require shift in addition to caps lock), letters are switched to lowercase
-  when <kbd>shift</kbd> is pressed, allow to type layer 3 symbols with
-  <kbd>mod 3</kbd> when caps lock is active.
-* Fixes to the handling of <kbd>M3</kbd>+<kbd>Cmd</kbd> to increase
+  when <kbd>Shift</kbd> is pressed, allow to type layer 3 symbols with
+  <kbd>Mod 3</kbd> when caps lock is active.
+* Fixes to the handling of <kbd>Mod 3</kbd>+<kbd>Cmd</kbd> to increase
   compatibility with shortcuts (though, shortcuts involving <kbd>M3</kbd> can 
   still be problematic and will remain so for the foreseeable future).
 * A few unassigned keys in the layout have been fixed.
@@ -50,6 +50,13 @@ keys add the following modifications:
 
 # Know issues
 
+* While the left <kbd>Option</kbd> does not fully act as <kbd>Mod 3</kbd> (it
+  can be used in keyboard shortcuts and does not activate layer 6 in combination
+  with <kbd>Mod 4</kbd>), it may map to layer 3 keys depending on how an
+  application reads shortcuts. In particular, websites within a browser will
+  usually see the layer 3 keys (i.e. <kbd>Option</kbd>+<kbd>i</kbd> becomes
+  <kbd>Option</kbd>+<kbd>/</kbd>), while native applications often see the base
+  layer.
 * Some programs (often webbrowsers or webpages displayed in them) might
   interpret layer 3 keys as a shortcut. You can use one of the "Prevent *keys*
   from being treated as option key shortcut" rules in Karabiner Elements to
