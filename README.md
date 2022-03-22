@@ -22,12 +22,12 @@ but has a number of improvements:
 
 # Installation
 
-1. Copy `neo.keylayout` and one of the icons (`neo*.icns`) renamed to `neo.icns`
-   to `~/Library/Keyboard Layouts/` (user install) or
-   `/Library/Keyboard Layouts/` (system-wide install).
-2. Reboot.
-3. Add "Deutsch (Neo 2)" in the Input Sources tab of the Keyboard system
-   settings.
+1. Download `Neo2.dmg` from the
+   [Releases section](https://github.com/jgosmann/neo2-layout-osx/releases/).
+2. Open the disk image.
+3. Run the "Keyboard Installer".
+4. Drag & drop `Neo2.bundle` on the installer window.
+5. Chose whether to install for the current user only or system-wide.
 
 To get access to all layers, also install [Karabiner
 Elements](https://pqrs.org/osx/karabiner/) and import [the Neo2 complex rule
@@ -49,6 +49,16 @@ keys add the following modifications:
 | `right_option`  | `right_command` |
 
 ![Screenshot of simple modifications for Windows keyboard](simple-mod-win.png)
+
+## Manual installation
+
+1. Copy `Neo2.bundle/Contents/Resources/Deutsch (Neo 2).keylayout` and one of
+   the icons (`neo*.icns`) renamed to `neo.icns` to
+   `~/Library/Keyboard Layouts/` (user install) or `/Library/Keyboard Layouts/`
+   (system-wide install).
+2. Reboot.
+3. Add "Deutsch (Neo 2)" in the Input Sources tab of the Keyboard system
+   settings.
 
 # Know issues
 

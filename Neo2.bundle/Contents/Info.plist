@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>org.sil.ukelele.keyboardlayout.neo2</string>
+	<key>CFBundleName</key>
+	<string>Neo2</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>KLInfo_Deutsch (Neo 2)</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.neo2.deutsch(neo2)</string>
+		<key>TISIntendedLanguage</key>
+		<string>de-DE</string>
+	</dict>
+</dict>
+</plist>
