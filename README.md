@@ -15,6 +15,8 @@ but has a number of improvements:
 * Fixed layer 4 minus.
 * Fixed the layout of the <kbd>Ctrl</kbd> modifier to work in MacVim.
 * Fixed compose function for ñ.
+* Fixed layer 4 and 6 of the "grave_accent_and_tilde" key (the one left of
+  <kbd>1</kbd>).
 * Fixed <kbd>Ctrl</kbd>+<kbd>J</kbd>.
 * Alternative icons that can be used with the new dark mode in macOS Mojave.
 
