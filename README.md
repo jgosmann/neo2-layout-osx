@@ -32,8 +32,8 @@ but has a number of improvements:
 To get access to all layers, also install [Karabiner
 Elements](https://pqrs.org/osx/karabiner/) and import [the Neo2 complex rule
 set](https://pqrs.org/osx/karabiner/complex_modifications/#neo2). Activate the
-desired complex modifications (probably you want at least "Neo2 layer 4", "Neo2
-layer 6", and one of the "Neo2 mod 3 and 4 keys" rules).
+desired complex modifications (probably you want at least "Neo2 mode 3 key and
+layer 4" and "Neo2 layer 6" rules).
 
 On Windows keyboards the <kbd>Cmd</kbd> and <kbd>Alt</kbd> keys are swapped
 compared to Apple keyboards. You may want switch the key assignment which can
