@@ -1,3 +1,7 @@
+**This repository is archived because all changes have been incorporated back into
+[the official keyboard layout file of neo-layout.org](https://neo-layout.org/Einrichtung/macOS/).
+Please use it instead.**
+
 # neo2-layout-osx
 Neo2 keyboard layout file for macOS.
 
